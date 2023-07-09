@@ -7,7 +7,7 @@ The company wants to increase sales by selling more everyday products repeatedly
 
 ## Installation and Setup
 To work on this project, download CSV file and the instruction file with the tasks under the folder.
-If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step analysis with the python script. 
+If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step analysis with the python script. To provide you a reference and make comparison easier, I added final updated data set as an excel file as well. 
 
 ## Codes and Resources Used
  - Python was used for this project

@@ -3,9 +3,7 @@
 
 
 In this repository, I included my Excel, Power BI, and Python data analystics projects. 
-
-[Project 1: Sales records analysis with further recommendations]()
-## Project Overview:
+## [Project 1: Sales records analysis with further recommendations](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Sales_Record_Analysis)
 - Performed EDA analysis of pet products retailer's sales records
 - Did Data Cleaning, Data Validation before starting EDA
 - As a result of EDA checked whether the retailer's approach to increase sales with selling more of everyday repeatedly was correct or not

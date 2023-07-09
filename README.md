@@ -8,14 +8,13 @@ In this repository, I included my Excel, Power BI, and Python data analystics pr
 - Did Data Cleaning, Data Validation before starting EDA
 - As a result of EDA checked whether the retailer's approach to increase sales with selling more of everyday repeatedly was correct or not
 
-## [Project 2: Power BI 6 ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_6)
-What is it? 
-What was the task? 
-what it aims to achieve?
-What I did? What can we see? 
-Short summary
+## [Project 2: Power BI 5 ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_project_5)
+- Uploaded Beer brewery and retailer sales data to Power BI
+- Structured, cleaned up the data
+- Created a data model by establishing relationships between tables
+- Provided analysis of sales and gross profit margin for each customer per financial quarter, and helped to identify the bestseller for a CFO with the recommendations. 
 
-## [Project 3: Power BI 5](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_project_5)
+## [Project 3: Power BI 6](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_project_5)
 What is it? 
 What was the task? 
 what it aims to achieve?

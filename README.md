@@ -8,22 +8,21 @@ In this repository, I included my Excel, Power BI, and Python data analystics pr
 - Did Data Cleaning, Data Validation before starting EDA
 - As a result of EDA checked whether the retailer's approach to increase sales with selling more of everyday repeatedly was correct or not
 
-
-[Project 2: Power BI]()
+## [Project 2: Power BI 6 ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_6)
 What is it? 
 What was the task? 
 what it aims to achieve?
 What I did? What can we see? 
 Short summary
 
-[Project 3: Power BI]()
+## [Project 3: Power BI 5](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_project_5)
 What is it? 
 What was the task? 
 what it aims to achieve?
 What I did? What can we see? 
 Short summary
 
-[Project 4: Power BI]()
+## [Project 4: Power BI 7](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_Project%207)
 What is it? 
 What was the task? 
 what it aims to achieve?

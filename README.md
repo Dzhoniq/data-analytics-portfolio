@@ -1,5 +1,5 @@
 # data-analytics-portfolio
-![image](https://github.com/Dzhoniq/data-analytics-portfolio/assets/64640862/e11f3a52-2c11-4e48-b094-e6d1731d5c4c))
+![image](https://github.com/Dzhoniq/data-analytics-portfolio/assets/64640862/e11f3a52-2c11-4e48-b094-e6d1731d5c4c)
 
 
 In this repository, I included my Excel, Power BI, and Python data analystics projects. 

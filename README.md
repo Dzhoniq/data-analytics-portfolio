@@ -22,7 +22,6 @@ What I did? What can we see?
 Short summary
 
 ## [Project 4: Power BI 7](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_Project%207)
-## Project Overview
 In this project I created a market intelligence report for a chain store with Power BI. 
 - created a data model and cleaned up the data
 - drew conclusions from my analysis

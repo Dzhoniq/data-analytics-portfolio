@@ -14,7 +14,7 @@ In this repository, I included my Excel, Power BI, and Python data analystics pr
 - Created a data model by establishing relationships between tables
 - Provided analysis of sales and gross profit margin for each customer per financial quarter, and helped to identify the bestseller for a CFO with the recommendations. 
 
-## [Project 3: Power BI 6](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_project_5)
+## [Project 3: Power BI 6](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_6)
 In this project, I created a Power BI report for Waggle, a startup that makes smart devices for pets. At the end, I applied the key concepts of Power BI to create a user-friendly and interactive report so that based on your report, the CEO of Waggle can make decisions about the future direction of the company. 
 - uploaded, cleaned up data and created a date model
 - interactive report with visualizations, navigation buttons and filters

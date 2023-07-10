@@ -1,4 +1,4 @@
-[Project 1: Pet products retailer's sales records analysis - Data clening, Data Validation and EDA]()
+# Project 1: Pet products retailer's sales records analysis - Data clening, Data Validation and EDA
 ## Project Overview:
 This project is my practical exam from DataCamp **Data Analyst Associate** Certification. 
 It's about the sales records analysis of a reatiler of products for pets - PetMind. The are based in the United States. 

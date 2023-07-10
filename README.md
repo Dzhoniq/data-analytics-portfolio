@@ -22,8 +22,10 @@ What I did? What can we see?
 Short summary
 
 ## [Project 4: Power BI 7](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/PowerBI_Project%207)
-What is it? 
-What was the task? 
-what it aims to achieve?
-What I did? What can we see? 
-Short summary
+## Project Overview
+In this project I created a market intelligence report for a chain store with Power BI. 
+- created a data model and cleaned up the data
+- drew conclusions from my analysis
+- identified correlation between sales and income, customer ratings and return rates
+- used visualization to answer questions from the CEO 
+- used models to forecast future prospects

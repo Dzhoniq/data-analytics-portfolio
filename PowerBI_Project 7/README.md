@@ -1,4 +1,8 @@
 # Market Analysis report project
+![image](https://github.com/Dzhoniq/data-analytics-portfolio/assets/64640862/760842e9-32cf-4d94-b946-efa569bbd185)
+![image](https://github.com/Dzhoniq/data-analytics-portfolio/blob/main/PowerBI_Project%207/Project%207_2_5.png?raw=true)
+![image](https://github.com/Dzhoniq/data-analytics-portfolio/assets/64640862/deb24667-457b-46b4-baad-fb55c179085b)
+![image](https://github.com/Dzhoniq/data-analytics-portfolio/blob/main/PowerBI_Project%207/Project%207%205_5.png?raw=true)
 
 ## Project Overview
 In this project I created a market intelligence report for a chain store with Power BI. 

@@ -1,10 +1,7 @@
-# Project 6: "Cookie Cats" game's retention analysis using AB-test 
+# Project 6: Mobile Game A/B testing  
 ## Project Overview:
 Cookie Cats is a hugely popular mobile puzzle game developed by Tactile Entertainment. It's a classic "connect three"-style puzzle game where the player must connect tiles of the same color to clear the board and win the level. 
-
-As players progress through the levels of the game, they will occasionally encounter gates that force them to wait a non-trivial amount of time or make an in-app purchase to progress. In addition to driving in-app purchases, these gates serve the important purpose of giving players an enforced break from playing the game, hopefully resulting in that the player's enjoyment of the game being increased and prolonged.
-
-But where should the gates be placed? Initially the first gate was placed at level 30, but in this notebook we analyzed an AB-test where we moved the first gate in Cookie Cats from level 30 to level 40. In particular, we looked at the impact on player retention. 
+As players progress through the levels of the game, they will occasionally encounter gates that force them to wait a non-trivial amount of time or make an in-app purchase to progress. In this project, I analyzed the result of an A/B test where the first gate in Cookie Cats was moved from level 30 to level 40 using the player retention baed on 90189 players data.
 
 ## Installation and Setup
 To work on this project, download CSV file under the folder.
@@ -17,14 +14,13 @@ If you download jupyter noteboook (ipynb) in the folder, you can see the the des
 ## Technial skills 
 - Python
 - Data Acquisition: upload csv file
-- Data Preprocessing
--   Data Cleaning
--   Data Validation
--   Exploratory Data Analysis (EDA)
--   Descriptive and Inferential Statistics
--   Data Visualization to support/check my findings with the audience
--   Hypothesis testing
+- Understanding the AB-test data
+- Exploratory Data Analysis (EDA)
+- Calculating the metric for AB-test
+- Transforming data
+- Data Visualization to support/check my findings with the audience
+- Bootstrap analysis to get at the certainty of the retention numbers
 
 
 ## Results and Evaluation 
-The bootstrap result tells us that there is strong evidence that 7-day retention is higher when the gate is at level 30 than when it is at level 40. The conclusion is: If we want to keep retention high — both 1-day and 7-day retention — we should <strong>not</strong> move the gate from level 30 to level 40. There are, of course, other metrics we could look at, like the number of game rounds played or how much in-game purchases are made by the two AB-groups. But retention <em>is</em> one of the most important metrics. If we don't retain our player base, it doesn't matter how much money they spend in-game.
+The bootstrap result tells us that there is strong evidence that 7-day retention is higher when the gate is at level 30 than when it is at level 40. The probability that 7-day retention is greater when the gate is at level 30 was 100 % and for 1-day retention was 97%. The conclusion is: If we want to keep retention high — both 1-day and 7-day retention — we should <strong>not</strong> move the gate from level 30 to level 40. There are, of course, other metrics we could look at, like the number of game rounds played or how much in-game purchases are made by the two AB-groups. But retention <em>is</em> one of the most important metrics. If we don't retain our player base, it doesn't matter how much money they spend in-game.

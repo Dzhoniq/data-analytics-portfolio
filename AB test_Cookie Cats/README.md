@@ -4,16 +4,17 @@ As players progress through the levels of the game, they will occasionally encou
 
 But where should the gates be placed? Initially the first gate was placed at level 30, but in this notebook we're going to analyze an AB-test where we moved the first gate in Cookie Cats from level 30 to level 40. In particular, we will look at the impact on player retention. But before we get to that, a key step before undertaking any analysis is understanding the data. 
 
-# Project 1: Pet products retailer's sales records analysis - Data clening, Data Validation and EDA
+# Project 1: "Cookie Cats" game's retention analysis using AB-test 
 ## Project Overview:
-This project is my practical exam from DataCamp **Data Analyst Associate** Certification. 
-It's about the sales records analysis of a reatiler of products for pets - PetMind. The are based in the United States. 
-PetMind sells products that are mix of luxury items and everyday items. Luxutry items include toys. Everyday items include food. 
-The company wants to increase sales by selling more everyday products repeatedly. They have been testing this approach for the last year. They now want a report on how repeat purchases impact sales. So, I will do data cleaning, data validation and then some exploaratiry data analysis to check the performance of their approach.
+Cookie Cats is a hugely popular mobile puzzle game developed by Tactile Entertainment. It's a classic "connect three"-style puzzle game where the player must connect tiles of the same color to clear the board and win the level. 
+
+As players progress through the levels of the game, they will occasionally encounter gates that force them to wait a non-trivial amount of time or make an in-app purchase to progress. In addition to driving in-app purchases, these gates serve the important purpose of giving players an enforced break from playing the game, hopefully resulting in that the player's enjoyment of the game being increased and prolonged.
+
+But where should the gates be placed? Initially the first gate was placed at level 30, but in this notebook we analyzed an AB-test where we moved the first gate in Cookie Cats from level 30 to level 40. In particular, we looked at the impact on player retention. 
 
 ## Installation and Setup
-To work on this project, download CSV file and the instruction file with the tasks under the folder.
-If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step analysis with the python script. To provide you a reference and make comparison easier, I added final updated data set as an excel file as well. 
+To work on this project, download CSV file under the folder.
+If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step analysis with the python script. 
 
 ## Codes and Resources Used
  - Python was used for this project
@@ -27,7 +28,9 @@ If you download jupyter noteboook (ipynb) in the folder, you can see the the des
 -   Data Validation
 -   Exploratory Data Analysis (EDA)
 -   Descriptive and Inferential Statistics
--   Data Visualization to support/check my findings with the audience 
+-   Data Visualization to support/check my findings with the audience
+-   Hypothesis testing
+
+
 ## Results and Evaluation 
-After the analysis of the sales records, it was concluded that the approach of PetMind to sell more repeat products is coorect. As we can see from the visualization below, the total sales of items with repeat purchase is higher than the items without repeat purchase. The distribution of sales where we look at the sale indiviudally, indicates that the median sales amount is higher for products with no repeat purchase as they have higher price. But the products with repeat purchase had more outliers with high sales which resultred in higher total sales when the products are grouped by repeat purchase criteria. 
-![image](https://github.com/Dzhoniq/data-analytics-portfolio/assets/64640862/371f7d45-df0b-475f-be34-bd77da8e99c8)
+The bootstrap result tells us that there is strong evidence that 7-day retention is higher when the gate is at level 30 than when it is at level 40. The conclusion is: If we want to keep retention high — both 1-day and 7-day retention — we should <strong>not</strong> move the gate from level 30 to level 40. There are, of course, other metrics we could look at, like the number of game rounds played or how much in-game purchases are made by the two AB-groups. But retention <em>is</em> one of the most important metrics. If we don't retain our player base, it doesn't matter how much money they spend in-game.

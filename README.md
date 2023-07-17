@@ -32,3 +32,19 @@ In this project I created a market intelligence report for a chain store with Po
 - identified correlation between sales and income, customer ratings and return rates
 - used visualization to answer questions from the CEO 
 - used models to forecast future prospects
+
+## [Project 5: Finding the Sharpe Ratio: Risk and Returns](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Sharpe%20Ratio)
+In this project I calculated the Sharpe Ratio for the stocks of Facebook and Amazon using S&P 500 as benchmark. This ratio also known as reward-to-variability ratio, compares the expected returns for two investment opportunities and calculates the additional return per unit of risk an investor could obtain by choosing one over the other. A higher Sharpe Ratio means that the reward will be higher for a given amount of risk. 
+- uploaded and checked the data
+- visualized and summarized daily values of the stocks and S&P 500 to better understand it
+- prepared the inputs for the Sharpe ratio: calculated daily stock returns (Amazon, Facebook & S&P500),the difference in returns between stocks and S&P 500 benchmark 
+- Computed the Sharpe Ratio: calculated the average and standard deviation of excess returns (between stocks & S&P500 index) and the daily sharpe ratio
+- Based on the Sharpe Ratio, provided conclusion to make a buy decision
+
+## [Project 6: AB test](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/AB%20test_Cookie%20Cats)
+In this project I calculated the Sharpe Ratio for the stocks of Facebook and Amazon using S&P 500 as benchmark. This ratio also known as reward-to-variability ratio, compares the expected returns for two investment opportunities and calculates the additional return per unit of risk an investor could obtain by choosing one over the other. A higher Sharpe Ratio means that the reward will be higher for a given amount of risk. 
+- uploaded and checked the data
+- visualized and summarized daily values of the stocks and S&P 500 to better understand it
+- prepared the inputs for the Sharpe ratio: calculated daily stock returns (Amazon, Facebook & S&P500),the difference in returns between stocks and S&P 500 benchmark 
+- Computed the Sharpe Ratio: calculated the average and standard deviation of excess returns (between stocks & S&P500 index) and the daily sharpe ratio
+- Based on the Sharpe Ratio, provided conclusion to make a buy decision  

@@ -37,7 +37,7 @@ In this project I created a market intelligence report for a chain store with Po
 In this project I calculated the Sharpe Ratio for the stocks of Facebook and Amazon using S&P 500 as benchmark. This ratio also known as reward-to-variability ratio, compares the expected returns for two investment opportunities and calculates the additional return per unit of risk an investor could obtain by choosing one over the other. A higher Sharpe Ratio means that the reward will be higher for a given amount of risk. 
 - uploaded and checked the data
 - visualized and summarized daily values of the stocks and S&P 500 to better understand it
-- prepared the inputs for the Sharpe ratio: calculated daily stock returns (Amazon, Facebook & S&P500),the difference in returns between stocks and S&P 500 benchmark 
+- prepared the inputs for the Sharpe ratio: calculated daily stock returns (Amazon, Facebook & S&P500), the difference in returns between stocks and S&P 500 benchmark 
 - Computed the Sharpe Ratio: calculated the average and standard deviation of excess returns (between stocks & S&P500 index) and the daily sharpe ratio
 - Based on the Sharpe Ratio, provided conclusion to make a buy decision
 
@@ -45,7 +45,7 @@ In this project I calculated the Sharpe Ratio for the stocks of Facebook and Ama
 In this project I did A/B test to check which scenario for a game called "Cookie Cats" would increase its player retention. The game has gates that players encounter as they progress through the levels. These gates serve the important purpose of giving players an enforced break from playing, hopefully resulting in that the the player's enjoyment of the game being increased and prolonged. The gates where placed in level 30 and level 40, and analyzing an A/B test we checked the impact of these changes on players retention.
 - uploaded and checked the descriptoin of the AB-test data
 - Performed EDA analysis to check the distribution of game rounds
-- Cacculated 1-day and 7-day retention
+- Calculated 1-day and 7-day retention
 - Used bootstrapping to get at the certainty of the retention numbers
 - Computed a difference between retention rates of 2 scenarious and the probability of the difference 
 - Based on the A/B-test results, provided recommendations on whether to move the gate from level 30 to level 40

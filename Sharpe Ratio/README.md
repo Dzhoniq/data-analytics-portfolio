@@ -25,5 +25,6 @@ If you download jupyter noteboook (ipynb) in the folder, you can see the the des
 ## Results and Evaluation 
 Amazon stock had Sharpe Ration of 0.35, and Facebook stock had around 0.17. Amazon had a Sharpe ratio twice as high as Facebook. This means that an investment in Amazon returned twice as much compared to the S&P 500 for each unit of risk an investor would have assumed. In other words, in risk-adjusted terms, the investment in Amazon would have been more attractive.This difference was mostly driven by differences in return rather than risk between Amazon and Facebook. The risk of choosing Amazon over FB (as measured by the standard deviation) was only slightly higher so that the higher Sharpe ratio for Amazon ends up higher mainly due to the higher average daily returns for Amazon.
 When faced with investment alternatives that offer both different returns and risks, the Sharpe Ratio helps to make a decision by adjusting the returns by the differences in risk and allows an investor to compare investment opportunities on equal terms. 
+
 ![image](https://github.com/Dzhoniq/data-analytics-portfolio/assets/64640862/26b02897-305c-40a1-aaad-91e14afea8ce)
 

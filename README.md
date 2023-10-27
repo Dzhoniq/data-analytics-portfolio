@@ -49,3 +49,13 @@ In this project I did A/B test to check which scenario for a game called "Cookie
 - Used bootstrapping to get at the certainty of the retention numbers
 - Computed a difference between retention rates of 2 scenarious and the probability of the difference 
 - Based on the A/B-test results, provided recommendations on whether to move the gate from level 30 to level 40
+
+## [Project 7: Hypothesis testing on the pharmaceutical drug treatment effects](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/AB%20test_Cookie%20Cats)
+In this porject I conducted several hypothesis tests using Python to determine if the adverse reactions of a hypothetical drug are significant. I also checked if factors such as age and sex significantly influence the adverse reactions. It was found the number of adverse effects between 2 groups are not different except for cases when there were 1 or 2 adverse effects. The number of participants with 1 adverse effect was more for the Drug group than Placebo group. Then, to check whether there is a significant difference in proportions of adverse effects between the groups, I conducted a two-sample z-test. The next question from the organization was to check if the number of adverse effects is independent of the groups. To check it we were asked to use Chi-square test of independence from pingouin package.  The organization also asked to look at the age disribution in the groups. According to the visualization, the distribution is not following normal distribution. Hence, it's better to use non-parametric test to check the whether there was a difference in age between the groups. As there are 2 samples and the data is unpaired, I conducted a two-sided Wilcoxon-Main-Whitney test. The p value of this test was 0.257 and it was greater than the significance level. Thus, we fail to reject the null hypothesis. That means there is no significant difference in median age between the Drug and Placebo groups.
+Python
+- Data Acquisition: uploaded csv file
+- Understanding of the hypothesis testing
+- Exploratory Data Analysis (EDA) - visualized distributions
+- Conducted hypotheses test: a two-sample z-test, a chi-square test of independence, Wilcoxon-Main-Whitney test (non-parametric test)
+- Visualized data to support/check my findings with the audience
+- Provided explanation and summary for the hypothesis test results

@@ -1,27 +1,31 @@
 # Project 8: Stock Analysis 
 ## Project Overview:
-This project is my practical exam from DataCamp **Data Analyst Associate** Certification. 
-It's about the sales records analysis of a reatiler of products for pets - PetMind. The are based in the United States. 
-PetMind sells products that are mix of luxury items and everyday items. Luxutry items include toys. Everyday items include food. 
-The company wants to increase sales by selling more everyday products repeatedly. They have been testing this approach for the last year. They now want a report on how repeat purchases impact sales. So, I will do data cleaning, data validation and then some exploaratiry data analysis to check the performance of their approach.
+In this project, I did stock analysis using the data from yahoo finance. I got the data from Yahoo Finance and then created a graph to see the historical price. Then to have a better comparison of the selected stocks, I normalized the data. This allowed me to get all the stocks at the same starting point. Then I also checked the risk and return of stocks using the standard deviation and mean of the stock prices.
+
+Data fetching: using yfinance library downloaded financial data
+Exploratory data analysis: visualized the stock price
+Normalised the data: basing the prices to the intial price
+Visualized data to check the actual performance of stocks after normalisation
+Calcualted summary statistics - based the standard deviation and mean from a daily basis to a yearly basis
+Visualized return and risk of the stocks - using the standard deviation and mean of the stock prices
 
 ## Installation and Setup
-To work on this project, download CSV file and the instruction file with the tasks under the folder.
-If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step analysis with the python script. To provide you a reference and make comparison easier, I added final updated data set as an excel file as well. 
+To work on this project, download the jupyter notebook and follow the script.
+If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step analysis with the python script. 
 
 ## Codes and Resources Used
  - Python was used for this project
- - Python libraries: (Numpy, Pandas, Seaborn, Matplotlib)
+ - Python libraries: (Numpy, Pandas, yfinance, Matplotlib)
 
 ## Technial skills 
 - Python
-- Data Acquisition: upload csv file
+- Data Acquisition: fetching data using yfinance library
 - Data Preprocessing
 -   Data Cleaning
 -   Data Validation
 -   Exploratory Data Analysis (EDA)
--   Descriptive and Inferential Statistics
--   Data Visualization to support/check my findings with the audience 
+-   Descriptive Statistics
+-   Data Visualization to show the normalized data, adn the risk vs. return graph
 ## Results and Evaluation 
-After the analysis of the sales records, it was concluded that the approach of PetMind to sell more repeat products is coorect. As we can see from the visualization below, the total sales of items with repeat purchase is higher than the items without repeat purchase. The distribution of sales where we look at the sale indiviudally, indicates that the median sales amount is higher for products with no repeat purchase as they have higher price. But the products with repeat purchase had more outliers with high sales which resultred in higher total sales when the products are grouped by repeat purchase criteria. 
+Overall,  it is was found that among the selected stocks, Amazon stock carries higher risk compared to others, but it also offers the highest return. Microsoft stock, on the other hand, exhibits the lowest return as well as the lowest risk. For risk-averse investors, Microsoft stock may be a suitable choice. Among these stock selections, Apple stock falls in the medium risk and return category, with an average return and average risk compared to other stocks. Additionally, by comparing this graph data to the normalized data graph, we can gain a better understanding of the best-performing stock relative to its risk, which is reflected in the volatility of its price and its actual performance. It was also shown that normalized data is better for comparison of different stocks with different price tags. 
 ![image](https://github.com/Dzhoniq/data-analytics-portfolio/assets/64640862/371f7d45-df0b-475f-be34-bd77da8e99c8)

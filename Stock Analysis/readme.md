@@ -31,4 +31,4 @@ Overall,  it is was found that among the selected stocks, Amazon stock carries h
 The graph that shows the return and risk of the stocks. 
 
 
-![image](https://github.com/Dzhoniq/data-analytics-portfolio/blob/main/Stock%20Analysis/risk_return.png)
+![image]([https://github.com/Dzhoniq/data-analytics-portfolio/blob/main/Stock%20Analysis/risk_return.png](https://github.com/Dzhoniq/data-analytics-portfolio/blob/main/Stock%20Analysis/Screenshot%202024-04-01%20at%205.42.10%20PM.png))

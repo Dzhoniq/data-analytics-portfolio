@@ -70,7 +70,6 @@ In this project, I did stock analysis using the data from yahoo finance. I got t
 - Calcualted summary statistics - based the standard deviation and mean from a daily basis to a yearly basis 
 - Visualized return and risk of the stocks - using the standard deviation and mean of the stock prices
 
-https://github.com/Dzhoniq/data-analytics-portfolio/blob/main/Cleaning%20Bank%20Marketing%20Campaign%20Data/readme.md
 
 ## [Project 8: Cleaning Bank Marketing Campaign Data ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Cleaning%20Bank%20Marketing%20Campaign%20Data)
 In this datacamp project I worked with a bank to clean the data they collected as part of recent marketing campaign. The campaign aimed to get customers to get customers to take out a personal loan. They want to conduct more marketing campaigns in the future, and they would like to ensure it conforms to the specific structure and data types so that they can then use the cleaned data I provide to set up a PostgreSQL database, which will store this campaign's data and allow data from future campaigns to be easily imported. I started by reading the cleaning requirements. Then I split the main data source into three dataframes. As part of the clening rquirements, I modified values, added new features, and converted data types. Finaly, after ensureing that all cleaning requirements were implemented, I saved data into multiple files.

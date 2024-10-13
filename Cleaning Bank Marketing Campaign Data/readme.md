@@ -1,6 +1,6 @@
 # Cleaning Bank Marketing Campaign Data
 ## Project Description
-This is case study from DataCamp, where we have been asked to work with a bank to cleanc the data they collected as part of recent marketing campaign. The campaign aimed to get customers to get customers to take out a personal loan. They want to conduct more marketing campaigns in the future, and they would like to ensure it conforms to the specific structure and data types so that they can then use the cleaned data you provide to set up a PostgreSQL database, which will store this campaign's data and allow data from future campaigns to be easily imported. 
+In this datacamp project I worked with a bank to clean the data they collected as part of recent marketing campaign. The campaign aimed to get customers to get customers to take out a personal loan. They want to conduct more marketing campaigns in the future, and they would like to ensure it conforms to the specific structure and data types so that they can then use the cleaned data you provide to set up a PostgreSQL database, which will store this campaign's data and allow data from future campaigns to be easily imported. 
 
 ## Project tasks
 To clean, reformat, and split the data, saving three final csv files. Each file has the names and contents as required below:
@@ -35,7 +35,7 @@ To clean, reformat, and split the data, saving three final csv files. Each file 
 
 ## Installation and Setup
 To work on this project, download CSV file under the folder.
-If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step analysis with the python script. 
+If you download jupyter noteboook (ipynb) in the folder, you can see the the description, tasks and step-by-step data cleaning, feature engineering, and saving data with Python scripts.
 
 ## Codes and Resources Used
  - Python was used for this project

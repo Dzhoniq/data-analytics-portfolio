@@ -71,9 +71,3 @@ In this project, I did stock analysis using the data from yahoo finance. I got t
 - Visualized return and risk of the stocks - using the standard deviation and mean of the stock prices
 
 
-## [Test project - new-project-Aiym](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/new-project-Aiym)
-In this project I showed to Aiym how to add a new project to her existing github page. 
-- Created a new file in the data-analytics-portfolio page
-- Added some information in readme inside the new file
-- Uploaded some new files to the folder
-- Saved

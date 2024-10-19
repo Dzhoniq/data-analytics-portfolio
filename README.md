@@ -78,7 +78,7 @@ In this datacamp project I worked with a bank to clean the data they collected a
 - Data splitting
 - Data saving into csv files
 
-## [Project 10: Cleaning Bank Marketing Campaign Data ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Building%20a%20Retail%20Data%20Pipeline)
+## [Project 10: Buidling a Retail Data Pipeline](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Building%20a%20Retail%20Data%20Pipeline)
 In this project, I worked with retail data from Walmart, a multinational retail corporation. I retrieved data from the sources, like csv and parquet, prepared the data using some transformation techniques, and loaded the data in an easy-to-access format. First, I created an extract() function that read the files, and then merged the files. Second, I implemented a transform() function that processes the merged dataframe by filling missing numerical values, adding a "Month" column, filtering for weekly sales over $10000, and dropping unnecessary columns. Next, an avg_weekly_sales_per_month funciton was created to calculate the average monthly sales, utilizing a chain of operations to group and aggregate the relevant data. After that, I created a load() function taht saved the cleaned and aggregated dataframes as csv files without including an index. Lastly, I created a validation() function that checks for the existence of the generated CSV files in the current working directory, ensuring that the data pipeline operates correctly from extraction to validation.
 - Data Acquisition: extracting data from structured sources
 - Transforming data using filtering data using pandas

@@ -71,10 +71,20 @@ In this project, I did stock analysis using the data from yahoo finance. I got t
 - Visualized return and risk of the stocks - using the standard deviation and mean of the stock prices
 
 
-## [Project 8: Cleaning Bank Marketing Campaign Data ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Cleaning%20Bank%20Marketing%20Campaign%20Data)
+## [Project 9: Cleaning Bank Marketing Campaign Data ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Cleaning%20Bank%20Marketing%20Campaign%20Data)
 In this datacamp project I worked with a bank to clean the data they collected as part of recent marketing campaign. The campaign aimed to get customers to get customers to take out a personal loan. They want to conduct more marketing campaigns in the future, and they would like to ensure it conforms to the specific structure and data types so that they can then use the cleaned data I provide to set up a PostgreSQL database, which will store this campaign's data and allow data from future campaigns to be easily imported. I started by reading the cleaning requirements. Then I split the main data source into three dataframes. As part of the clening rquirements, I modified values, added new features, and converted data types. Finaly, after ensureing that all cleaning requirements were implemented, I saved data into multiple files.
 - Data Acquisition: upload csv file
 - Data-cleaning skills
 - Data splitting
 - Data saving into csv files
+
+## [Project 10: Cleaning Bank Marketing Campaign Data ](https://github.com/Dzhoniq/data-analytics-portfolio/tree/main/Building%20a%20Retail%20Data%20Pipeline)
+In this project, I worked with retail data from Walmart, a multinational retail corporation. I retrieved data from the sources, like csv and parquet, prepared the data using some transformation techniques, and loaded the data in an easy-to-access format. First, I created an extract() function that read the files, and then merged the files. Second, I implemented a transform() function that processes the merged dataframe by filling missing numerical values, adding a "Month" column, filtering for weekly sales over $10000, and dropping unnecessary columns. Next, an avg_weekly_sales_per_month funciton was created to calculate the average monthly sales, utilizing a chain of operations to group and aggregate the relevant data. After that, I created a load() function taht saved the cleaned and aggregated dataframes as csv files without including an index. Lastly, I created a validation() function that checks for the existence of the generated CSV files in the current working directory, ensuring that the data pipeline operates correctly from extraction to validation.
+- Data Acquisition: extracting data from structured sources
+- Transforming data using filtering data using pandas
+- Preliminary analysis of sales data after cleaning data using subsetting and aggregate methods
+- Data saving into csv files
+- Loading and validating the data to store the transformed data and validating it was stored correctly
+
+
 
